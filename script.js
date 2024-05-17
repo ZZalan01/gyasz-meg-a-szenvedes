@@ -10,7 +10,7 @@ fetch("https://pizza.kando-dev.eu/Pizza").then(function(adatok){
                     <div class="card-body">
                     <h5 class="card-title">${adatok[i].name}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Gluténmentes: ${adatok[i].isGlutenFree}</h6>
-                    <h5 class="card-title">Ár: ${adatok[i].id + "0"}  </h5>
+                    <h5 class="card-title">Ár: ${adatok[i].id * "18"}  </h5>
                     <button>Kosárba</button>
                 </div>
                 </div>
